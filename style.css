@@ -1,0 +1,26 @@
+#new-book-button{
+    font-size: large;
+    background:cornflowerblue;
+    margin: 1em;
+}
+
+#new-book-form{
+    display:none;
+    gap: 1rem;
+    font-size: large;
+    flex-wrap: wrap;
+}
+
+.book {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+    width:300
+}
+
+#book-container{
+    display:flex;
+    flex-wrap: wrap;
+}
